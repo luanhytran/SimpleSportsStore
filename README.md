@@ -1,6 +1,11 @@
 # Hy Sports Store
  Simple ASP.NET Core E-Commerce 
   <hr>
- Requirement: <br>
- - Install .NET Core SDK 3.1 <br>
- - SQL Server 2017 <br>
+## Technologies
+- ASP.NET Core 3.1
+- Entity Framework Core 3.1
+## Install Tools
+- .NET Core SDK 3.1
+- Git client
+- Visual Studio 2019
+- SQL Server 2019
