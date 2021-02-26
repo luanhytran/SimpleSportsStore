@@ -1,0 +1,15 @@
+﻿@page
+
+    <div class="text-center">
+        <h2>Thanks!</h2>
+        <p>Thanks for placing order #@OrderId</p>
+        <p>We'll ship your goods as soon as possible.</p>
+        <a class="btn btn-primary" asp-controller="Home">Return to Store</a>
+    </div>
+
+@*Although Razor Page usually have page model class but they are not requirement, we have a simple features developed without them*@
+@*specifies that a value for this property should be obtain from the request by the model binding system*@
+@functions{
+    [BindProperty(SupportsGet = true)]
+    public string OrderId { get; set; }
+}

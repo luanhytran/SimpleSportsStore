@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\hytra\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\hytra\\.nuget\\packages"
+    ]
+  }
+}
