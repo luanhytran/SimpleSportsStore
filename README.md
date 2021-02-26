@@ -5,3 +5,7 @@
 - .NET Core SDK 3.1
 - Visual Studio 2019
 - SQL Server 2019
+## Install Packages
+- Microsoft.EntityFrameworkCore.SqlServer
+- Microsoft.EntityFrameworkCore.Tools
+- Microsoft.EntityFrameworkCore.Design
